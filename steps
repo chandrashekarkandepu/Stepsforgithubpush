@@ -1,0 +1,390 @@
+kandepcr@CMC-34BHQ6X2 HighwayAgents % git add .
+kandepcr@CMC-34BHQ6X2 HighwayAgents % ls
+project_files
+kandepcr@CMC-34BHQ6X2 HighwayAgents % git commit -m "First Commit"
+[main (root-commit) f002f3f] First Commit
+ Committer: Chandrashekar Kandepu <kandepcr@cmc-34bhq6x2.lang.uc.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 233 files changed, 74009 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100644 project_files/1.jpg
+ create mode 100644 project_files/2.jpg
+ create mode 100644 project_files/4.jpg
+ create mode 100644 project_files/5.jpg
+ create mode 100644 project_files/HighwayAgents.php
+ create mode 100644 project_files/addw.php
+ create mode 100644 project_files/addworker.php
+ create mode 100644 project_files/agenciy.html
+ create mode 100644 project_files/agencyaddworker.php
+ create mode 100644 project_files/agencylogin.php
+ create mode 100644 project_files/agencyregistration.php
+ create mode 100644 project_files/agencyupdate.php
+ create mode 100644 project_files/agent.jpg
+ create mode 100644 project_files/agent2.jpg
+ create mode 100644 project_files/avatar.png
+ create mode 100644 project_files/bootstrap-3.3.7-dist/css/bootstrap-theme.css
+ create mode 100644 project_files/bootstrap-3.3.7-dist/css/bootstrap-theme.css.map
+ create mode 100644 project_files/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css
+ create mode 100644 project_files/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css.map
+ create mode 100644 project_files/bootstrap-3.3.7-dist/css/bootstrap.css
+ create mode 100644 project_files/bootstrap-3.3.7-dist/css/bootstrap.css.map
+ create mode 100644 project_files/bootstrap-3.3.7-dist/css/bootstrap.min.css
+ create mode 100644 project_files/bootstrap-3.3.7-dist/css/bootstrap.min.css.map
+ create mode 100644 project_files/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.eot
+ create mode 100644 project_files/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg
+ create mode 100644 project_files/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.ttf
+ create mode 100644 project_files/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff
+ create mode 100644 project_files/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff2
+ create mode 100644 project_files/bootstrap-3.3.7-dist/js/bootstrap.js
+ create mode 100644 project_files/bootstrap-3.3.7-dist/js/bootstrap.min.js
+ create mode 100644 project_files/bootstrap-3.3.7-dist/js/npm.js
+ create mode 100644 project_files/chandra.jpg
+ create mode 100644 project_files/cofee.jpg
+ create mode 100644 project_files/con3.jpg
+ create mode 100644 project_files/contractor1.jpg
+ create mode 100644 project_files/contractorhome.html
+ create mode 100644 project_files/contractorlogin.php
+ create mode 100644 project_files/contractorreg.php
+ create mode 100644 project_files/css/main.css
+ create mode 100644 project_files/css/map.sql
+ create mode 100644 project_files/css/maps.jpg
+ create mode 100644 project_files/css/util.css
+ create mode 100644 project_files/delete.php
+ create mode 100644 project_files/deleteworker.php
+ create mode 100644 project_files/deleteworkerindex.php
+ create mode 100644 project_files/font-awesome-4.7.0/HELP-US-OUT.txt
+ create mode 100644 project_files/font-awesome-4.7.0/css/font-awesome.css
+ create mode 100644 project_files/font-awesome-4.7.0/css/font-awesome.min.css
+ create mode 100644 project_files/font-awesome-4.7.0/fonts/FontAwesome.otf
+ create mode 100644 project_files/font-awesome-4.7.0/fonts/fontawesome-webfont.eot
+ create mode 100644 project_files/font-awesome-4.7.0/fonts/fontawesome-webfont.svg
+ create mode 100644 project_files/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf
+ create mode 100644 project_files/font-awesome-4.7.0/fonts/fontawesome-webfont.woff
+ create mode 100644 project_files/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2
+ create mode 100644 project_files/font-awesome-4.7.0/less/animated.less
+ create mode 100644 project_files/font-awesome-4.7.0/less/bordered-pulled.less
+ create mode 100644 project_files/font-awesome-4.7.0/less/core.less
+ create mode 100644 project_files/font-awesome-4.7.0/less/fixed-width.less
+ create mode 100644 project_files/font-awesome-4.7.0/less/font-awesome.less
+ create mode 100644 project_files/font-awesome-4.7.0/less/icons.less
+ create mode 100644 project_files/font-awesome-4.7.0/less/larger.less
+ create mode 100644 project_files/font-awesome-4.7.0/less/list.less
+ create mode 100644 project_files/font-awesome-4.7.0/less/mixins.less
+ create mode 100644 project_files/font-awesome-4.7.0/less/path.less
+ create mode 100644 project_files/font-awesome-4.7.0/less/rotated-flipped.less
+ create mode 100644 project_files/font-awesome-4.7.0/less/screen-reader.less
+ create mode 100644 project_files/font-awesome-4.7.0/less/stacked.less
+ create mode 100644 project_files/font-awesome-4.7.0/less/variables.less
+ create mode 100644 project_files/font-awesome-4.7.0/scss/_animated.scss
+ create mode 100644 project_files/font-awesome-4.7.0/scss/_bordered-pulled.scss
+ create mode 100644 project_files/font-awesome-4.7.0/scss/_core.scss
+ create mode 100644 project_files/font-awesome-4.7.0/scss/_fixed-width.scss
+ create mode 100644 project_files/font-awesome-4.7.0/scss/_icons.scss
+ create mode 100644 project_files/font-awesome-4.7.0/scss/_larger.scss
+ create mode 100644 project_files/font-awesome-4.7.0/scss/_list.scss
+ create mode 100644 project_files/font-awesome-4.7.0/scss/_mixins.scss
+ create mode 100644 project_files/font-awesome-4.7.0/scss/_path.scss
+ create mode 100644 project_files/font-awesome-4.7.0/scss/_rotated-flipped.scss
+ create mode 100644 project_files/font-awesome-4.7.0/scss/_screen-reader.scss
+ create mode 100644 project_files/font-awesome-4.7.0/scss/_stacked.scss
+ create mode 100644 project_files/font-awesome-4.7.0/scss/_variables.scss
+ create mode 100644 project_files/font-awesome-4.7.0/scss/font-awesome.scss
+ create mode 100644 project_files/fonts/font-awesome-4.7.0/HELP-US-OUT.txt
+ create mode 100644 project_files/fonts/font-awesome-4.7.0/css/font-awesome.css
+ create mode 100644 project_files/fonts/font-awesome-4.7.0/css/font-awesome.min.css
+ create mode 100644 project_files/fonts/font-awesome-4.7.0/fonts/FontAwesome.otf
+ create mode 100644 project_files/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot
+ create mode 100644 project_files/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg
+ create mode 100644 project_files/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf
+ create mode 100644 project_files/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff
+ create mode 100644 project_files/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2
+ create mode 100644 project_files/fonts/font-awesome-4.7.0/less/animated.less
+ create mode 100644 project_files/fonts/font-awesome-4.7.0/less/bordered-pulled.less
+ create mode 100644 project_files/fonts/font-awesome-4.7.0/less/core.less
+ create mode 100644 project_files/fonts/font-awesome-4.7.0/less/fixed-width.less
+ create mode 100644 project_files/fonts/font-awesome-4.7.0/less/font-awesome.less
+ create mode 100644 project_files/fonts/font-awesome-4.7.0/less/icons.less
+ create mode 100644 project_files/fonts/font-awesome-4.7.0/less/larger.less
+ create mode 100644 project_files/fonts/font-awesome-4.7.0/less/list.less
+ create mode 100644 project_files/fonts/font-awesome-4.7.0/less/mixins.less
+ create mode 100644 project_files/fonts/font-awesome-4.7.0/less/path.less
+ create mode 100644 project_files/fonts/font-awesome-4.7.0/less/rotated-flipped.less
+ create mode 100644 project_files/fonts/font-awesome-4.7.0/less/screen-reader.less
+ create mode 100644 project_files/fonts/font-awesome-4.7.0/less/stacked.less
+ create mode 100644 project_files/fonts/font-awesome-4.7.0/less/variables.less
+ create mode 100644 project_files/fonts/font-awesome-4.7.0/scss/_animated.scss
+ create mode 100644 project_files/fonts/font-awesome-4.7.0/scss/_bordered-pulled.scss
+ create mode 100644 project_files/fonts/font-awesome-4.7.0/scss/_core.scss
+ create mode 100644 project_files/fonts/font-awesome-4.7.0/scss/_fixed-width.scss
+ create mode 100644 project_files/fonts/font-awesome-4.7.0/scss/_icons.scss
+ create mode 100644 project_files/fonts/font-awesome-4.7.0/scss/_larger.scss
+ create mode 100644 project_files/fonts/font-awesome-4.7.0/scss/_list.scss
+ create mode 100644 project_files/fonts/font-awesome-4.7.0/scss/_mixins.scss
+ create mode 100644 project_files/fonts/font-awesome-4.7.0/scss/_path.scss
+ create mode 100644 project_files/fonts/font-awesome-4.7.0/scss/_rotated-flipped.scss
+ create mode 100644 project_files/fonts/font-awesome-4.7.0/scss/_screen-reader.scss
+ create mode 100644 project_files/fonts/font-awesome-4.7.0/scss/_stacked.scss
+ create mode 100644 project_files/fonts/font-awesome-4.7.0/scss/_variables.scss
+ create mode 100644 project_files/fonts/font-awesome-4.7.0/scss/font-awesome.scss
+ create mode 100644 project_files/fonts/iconic/css/material-design-iconic-font.css
+ create mode 100644 project_files/fonts/iconic/css/material-design-iconic-font.min.css
+ create mode 100644 project_files/fonts/iconic/fonts/Material-Design-Iconic-Font.eot
+ create mode 100644 project_files/fonts/iconic/fonts/Material-Design-Iconic-Font.svg
+ create mode 100644 project_files/fonts/iconic/fonts/Material-Design-Iconic-Font.ttf
+ create mode 100644 project_files/fonts/iconic/fonts/Material-Design-Iconic-Font.woff
+ create mode 100644 project_files/fonts/iconic/fonts/Material-Design-Iconic-Font.woff2
+ create mode 100644 project_files/fonts/poppins/Poppins-Black.ttf
+ create mode 100644 project_files/fonts/poppins/Poppins-BlackItalic.ttf
+ create mode 100644 project_files/fonts/poppins/Poppins-Bold.ttf
+ create mode 100644 project_files/fonts/poppins/Poppins-BoldItalic.ttf
+ create mode 100644 project_files/fonts/poppins/Poppins-ExtraBold.ttf
+ create mode 100644 project_files/fonts/poppins/Poppins-ExtraBoldItalic.ttf
+ create mode 100644 project_files/fonts/poppins/Poppins-ExtraLight.ttf
+ create mode 100644 project_files/fonts/poppins/Poppins-ExtraLightItalic.ttf
+ create mode 100644 project_files/fonts/poppins/Poppins-Italic.ttf
+ create mode 100644 project_files/fonts/poppins/Poppins-Light.ttf
+ create mode 100644 project_files/fonts/poppins/Poppins-LightItalic.ttf
+ create mode 100644 project_files/fonts/poppins/Poppins-Medium.ttf
+ create mode 100644 project_files/fonts/poppins/Poppins-MediumItalic.ttf
+ create mode 100644 project_files/fonts/poppins/Poppins-Regular.ttf
+ create mode 100644 project_files/fonts/poppins/Poppins-SemiBold.ttf
+ create mode 100644 project_files/fonts/poppins/Poppins-SemiBoldItalic.ttf
+ create mode 100644 project_files/fonts/poppins/Poppins-Thin.ttf
+ create mode 100644 project_files/fonts/poppins/Poppins-ThinItalic.ttf
+ create mode 100644 project_files/geo1.html
+ create mode 100644 project_files/images/agent2.jpg
+ create mode 100644 project_files/images/bg-01.jpg
+ create mode 100644 project_files/images/icons/favicon.ico
+ create mode 100644 project_files/img/2.jpg
+ create mode 100644 project_files/img/3.jpg
+ create mode 100644 project_files/img/4.jpg
+ create mode 100644 project_files/img/5.jpg
+ create mode 100644 project_files/img/6.jpg
+ create mode 100644 project_files/img/7.jpg
+ create mode 100644 project_files/img/8.jpg
+ create mode 100644 project_files/img/city1.jpg
+ create mode 100644 project_files/img/city2.jpeg
+ create mode 100644 project_files/img/city3.jpg
+ create mode 100644 project_files/img/city4.jpg
+ create mode 100644 project_files/img/facebook.png
+ create mode 100644 project_files/img/hero.jpg
+ create mode 100644 project_files/img/logo.jpg
+ create mode 100644 project_files/img/road.jpg
+ create mode 100644 project_files/index.html
+ create mode 100644 project_files/js/main.js
+ create mode 100644 project_files/main.jpg
+ create mode 100644 project_files/mapping.html
+ create mode 100644 project_files/maps.jpg
+ create mode 100644 project_files/maps2.html
+ create mode 100644 project_files/phpsqlajax_dbinfo.php
+ create mode 100644 project_files/phpsqlinfo_addrow.php
+ create mode 100644 project_files/search.css
+ create mode 100644 project_files/search.php
+ create mode 100644 project_files/searchbox.html
+ create mode 100644 project_files/send.php
+ create mode 100644 project_files/style.css
+ create mode 100644 project_files/style1.css
+ create mode 100644 project_files/style2.css
+ create mode 100644 project_files/style3.css
+ create mode 100644 project_files/styleadd.css
+ create mode 100644 project_files/stylecon.css
+ create mode 100644 project_files/styleconlogin.css
+ create mode 100644 project_files/styleconreg.css
+ create mode 100644 project_files/styledisplay.css
+ create mode 100644 project_files/stylehome1.css
+ create mode 100644 project_files/stylemap.css
+ create mode 100644 project_files/stylereg.css
+ create mode 100644 project_files/styletable.css
+ create mode 100644 project_files/stylewelcomeagency.css
+ create mode 100644 project_files/vendor/animate/animate.css
+ create mode 100644 project_files/vendor/animsition/css/animsition.css
+ create mode 100644 project_files/vendor/animsition/css/animsition.min.css
+ create mode 100644 project_files/vendor/animsition/js/animsition.js
+ create mode 100644 project_files/vendor/animsition/js/animsition.min.js
+ create mode 100644 project_files/vendor/bootstrap/css/bootstrap-grid.css
+ create mode 100644 project_files/vendor/bootstrap/css/bootstrap-grid.css.map
+ create mode 100644 project_files/vendor/bootstrap/css/bootstrap-grid.min.css
+ create mode 100644 project_files/vendor/bootstrap/css/bootstrap-grid.min.css.map
+ create mode 100644 project_files/vendor/bootstrap/css/bootstrap-reboot.css
+ create mode 100644 project_files/vendor/bootstrap/css/bootstrap-reboot.css.map
+ create mode 100644 project_files/vendor/bootstrap/css/bootstrap-reboot.min.css
+ create mode 100644 project_files/vendor/bootstrap/css/bootstrap-reboot.min.css.map
+ create mode 100644 project_files/vendor/bootstrap/css/bootstrap.css
+ create mode 100644 project_files/vendor/bootstrap/css/bootstrap.css.map
+ create mode 100644 project_files/vendor/bootstrap/css/bootstrap.min.css
+ create mode 100644 project_files/vendor/bootstrap/css/bootstrap.min.css.map
+ create mode 100644 project_files/vendor/bootstrap/js/bootstrap.js
+ create mode 100644 project_files/vendor/bootstrap/js/bootstrap.min.js
+ create mode 100644 project_files/vendor/bootstrap/js/popper.js
+ create mode 100644 project_files/vendor/bootstrap/js/popper.min.js
+ create mode 100644 project_files/vendor/bootstrap/js/tooltip.js
+ create mode 100644 project_files/vendor/countdowntime/countdowntime.js
+ create mode 100644 project_files/vendor/css-hamburgers/hamburgers.css
+ create mode 100644 project_files/vendor/css-hamburgers/hamburgers.min.css
+ create mode 100644 project_files/vendor/daterangepicker/daterangepicker.css
+ create mode 100644 project_files/vendor/daterangepicker/daterangepicker.js
+ create mode 100644 project_files/vendor/daterangepicker/moment.js
+ create mode 100644 project_files/vendor/daterangepicker/moment.min.js
+ create mode 100644 project_files/vendor/jquery/jquery-3.2.1.min.js
+ create mode 100644 project_files/vendor/perfect-scrollbar/perfect-scrollbar.css
+ create mode 100644 project_files/vendor/perfect-scrollbar/perfect-scrollbar.min.js
+ create mode 100644 project_files/vendor/select2/select2.css
+ create mode 100644 project_files/vendor/select2/select2.js
+ create mode 100644 project_files/vendor/select2/select2.min.css
+ create mode 100644 project_files/vendor/select2/select2.min.js
+ create mode 100644 project_files/welcome.php
+ create mode 100644 project_files/worker1.jpg
+ create mode 100644 project_files/worker2.jpg
+ create mode 100644 project_files/worker3.jpg
+ create mode 100644 project_files/worker4.jpeg
+ create mode 100644 project_files/worker5.jpeg
+ create mode 100644 project_files/workers.jpg
+kandepcr@CMC-34BHQ6X2 HighwayAgents % gh repo create
+zsh: command not found: gh
+kandepcr@CMC-34BHQ6X2 HighwayAgents % brew install gh
+zsh: command not found: brew
+kandepcr@CMC-34BHQ6X2 HighwayAgents % sudo install gh
+Password:
+kandepcr is not in the sudoers file.  This incident will be reported.
+kandepcr@CMC-34BHQ6X2 HighwayAgents % sudo su
+Password:
+kandepcr is not in the sudoers file.  This incident will be reported.
+kandepcr@CMC-34BHQ6X2 HighwayAgents % su root
+Password:
+su: Sorry
+kandepcr@CMC-34BHQ6X2 HighwayAgents % git remote add origin git@github.com:chandrashekarkandepu/HighwayAgents.git
+kandepcr@CMC-34BHQ6X2 HighwayAgents % git remote -v
+origin	git@github.com:chandrashekarkandepu/HighwayAgents.git (fetch)
+origin	git@github.com:chandrashekarkandepu/HighwayAgents.git (push)
+kandepcr@CMC-34BHQ6X2 HighwayAgents % git push -u origin main
+The authenticity of host 'github.com (140.82.113.4)' can't be established.
+ECDSA key fingerprint is SHA256:p2QAMXNIC1TJYWeIOttrVc98/R1BUFWu3/LiyKgUfQM.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com,140.82.113.4' (ECDSA) to the list of known hosts.
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+kandepcr@CMC-34BHQ6X2 HighwayAgents % eval "$(ssh-agent -s)"
+Agent pid 14674
+kandepcr@CMC-34BHQ6X2 HighwayAgents % ssh-add -l -E sha256
+The agent has no identities.
+kandepcr@CMC-34BHQ6X2 HighwayAgents % ls -al ~/.ssh
+total 8
+drwx------   3 kandepcr  staff   96 Feb  6 16:02 .
+drwxr-xr-x+ 15 kandepcr  staff  480 Feb  6 16:02 ..
+-rw-r--r--   1 kandepcr  staff  185 Feb  6 16:02 known_hosts
+kandepcr@CMC-34BHQ6X2 HighwayAgents % ssh-keygen -t ed25519 -C chowschandra@gmail.com
+Generating public/private ed25519 key pair.
+Enter file in which to save the key (/Users/kandepcr/.ssh/id_ed25519): 
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /Users/kandepcr/.ssh/id_ed25519.
+Your public key has been saved in /Users/kandepcr/.ssh/id_ed25519.pub.
+The key fingerprint is:
+SHA256:rWHvYD/QlTHsdPjuLxXLWaqsgy5rX9UgqpaQ6Ut+kf4 chowschandra@gmail.com
+The key's randomart image is:
++--[ED25519 256]--+
+|           . .   |
+|            * .  |
+|          .o.*   |
+|     o   o .+o...|
+|    +  .S.....o.=|
+|   . .o+.+..  o+.|
+|    o.+.+oo. o . |
+|   o o=..=o o o  |
+|    oo.*E ++   o.|
++----[SHA256]-----+
+kandepcr@CMC-34BHQ6X2 HighwayAgents % eval "$(ssh-agent -s)"
+Agent pid 14781
+kandepcr@CMC-34BHQ6X2 HighwayAgents % open ~/.ssh/config
+The file /Users/kandepcr/.ssh/config does not exist.
+kandepcr@CMC-34BHQ6X2 HighwayAgents % touch ~/.ssh/config 
+kandepcr@CMC-34BHQ6X2 HighwayAgents % vi  ~/.ssh/config
+kandepcr@CMC-34BHQ6X2 HighwayAgents % ssh-add --apple-use-keychain ~/.ssh/id_ed25519 
+ssh-add: illegal option -- -
+usage: ssh-add [options] [file ...]
+Options:
+  -l          List fingerprints of all identities.
+  -E hash     Specify hash algorithm used for fingerprints.
+  -L          List public key parameters of all identities.
+  -k          Load only keys and not certificates.
+  -c          Require confirmation to sign using identities
+  -m minleft  Maxsign is only changed if less than minleft are left (for XMSS)
+  -M maxsign  Maximum number of signatures allowed (for XMSS)
+  -t life     Set lifetime (in seconds) when adding identities.
+  -d          Delete identity.
+  -D          Delete all identities.
+  -x          Lock agent.
+  -X          Unlock agent.
+  -s pkcs11   Add keys from PKCS#11 provider.
+  -e pkcs11   Remove keys provided by PKCS#11 provider.
+  -T pubkey   Test if ssh-agent can access matching private key.
+  -q          Be quiet after a successful operation.
+  -A          Add all identities stored in your keychain.
+  -K          Store passphrases in your keychain.
+              With -d, remove passphrases from your keychain.
+kandepcr@CMC-34BHQ6X2 HighwayAgents % git push -u origin main
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+kandepcr@CMC-34BHQ6X2 HighwayAgents % ls -al ~/.ssh
+total 32
+drwx------   6 kandepcr  staff  192 Feb  6 16:14 .
+drwxr-xr-x+ 16 kandepcr  staff  512 Feb  6 16:14 ..
+-rw-r--r--   1 kandepcr  staff   90 Feb  6 16:14 config
+-rw-------   1 kandepcr  staff  419 Feb  6 16:12 id_ed25519
+-rw-r--r--   1 kandepcr  staff  104 Feb  6 16:12 id_ed25519.pub
+-rw-r--r--   1 kandepcr  staff  185 Feb  6 16:02 known_hosts
+kandepcr@CMC-34BHQ6X2 HighwayAgents % ssh -T git@github.com
+Warning: Permanently added the ECDSA host key for IP address '140.82.114.4' to the list of known hosts.
+git@github.com: Permission denied (publickey).
+kandepcr@CMC-34BHQ6X2 HighwayAgents % cat id_rsa.pub
+cat: id_rsa.pub: No such file or directory
+kandepcr@CMC-34BHQ6X2 HighwayAgents % cat id_ed25519.pub
+cat: id_ed25519.pub: No such file or directory
+kandepcr@CMC-34BHQ6X2 HighwayAgents % cd /.ssh
+cd: no such file or directory: /.ssh
+kandepcr@CMC-34BHQ6X2 HighwayAgents % cd ~/.ssh
+kandepcr@CMC-34BHQ6X2 .ssh % ls
+config		id_ed25519	id_ed25519.pub	known_hosts
+kandepcr@CMC-34BHQ6X2 .ssh % cat id_ed25519.pub
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGOw4/xEIOE77Ad79X87x9JphhyjiiF4OkxeY74dqq05 chowschandra@gmail.com
+kandepcr@CMC-34BHQ6X2 .ssh % cd ..
+kandepcr@CMC-34BHQ6X2 ~ % cd HihwayAgents
+cd: no such file or directory: HihwayAgents
+kandepcr@CMC-34BHQ6X2 ~ % cd HighwayAgents
+cd: no such file or directory: HighwayAgents
+kandepcr@CMC-34BHQ6X2 ~ % cd downloads
+kandepcr@CMC-34BHQ6X2 downloads % ls
+Highway agents-20230206T205327Z-001.zip	HighwayAgents
+kandepcr@CMC-34BHQ6X2 downloads % cd HighwayAgents 
+kandepcr@CMC-34BHQ6X2 HighwayAgents % l
+zsh: command not found: l
+kandepcr@CMC-34BHQ6X2 HighwayAgents % git push -u origin main                        
+Warning: Permanently added the ECDSA host key for IP address '140.82.113.3' to the list of known hosts.
+Enumerating objects: 229, done.
+Counting objects: 100% (229/229), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (223/223), done.
+Writing objects: 100% (229/229), 15.66 MiB | 8.60 MiB/s, done.
+Total 229 (delta 23), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (23/23), done.
+To github.com:chandrashekarkandepu/HighwayAgents.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+kandepcr@CMC-34BHQ6X2 HighwayAgents % 
